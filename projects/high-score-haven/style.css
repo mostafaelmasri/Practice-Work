@@ -1,0 +1,137 @@
+  body {
+      background-image: url(http://wallpapercave.com/wp/hGSuOLZ.png);
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+
+  }
+  th {color:blue}
+
+  h1 {font-size:2em;}
+
+audio {   
+    visibility:hidden;
+    }
+
+
+  .input1,.input2,.input3,.input4 {
+      width: 130px;
+      margin : 30px;
+  }
+
+
+
+
+
+  td,tr,th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+
+  table { 
+      width:70%; 
+      margin-left:15%; 
+      margin-right:15%;
+      border-collapse: collapse;
+      background-color: #3CBC8D;
+      color: black;   
+
+
+
+  }
+
+
+  #submit {
+
+      background-color: #4CAF50; /* Green */
+      border:none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-family: 'Oswald', sans-serif;
+  }
+
+
+  #submit:hover {
+      background-color: white; /* Green */
+      border-radius: 9px;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      display: inline-block;
+      
+      font-family: 'Oswald', sans-serif;
+  }
+
+
+@media screen and (max-width: 440px) {
+    body {
+        background-image: url(http://wallpapercave.com/wp/hGSuOLZ.png);
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      }
+  th {color:green}
+
+  h1 {font-size:3em;}
+  
+  .input1,.input2,.input3,.input4 {
+      width: 90px;
+      margin : 10px;
+  }
+
+
+
+
+
+  td,tr,th {
+    border:1px solid black;
+    padding: 4px;
+    text-align: center;
+  }
+
+
+  table { 
+      width:80%; 
+      margin-left:11%; 
+      margin-right:11%;
+      border-collapse: collapse;
+      background-color: #6bc59e;
+      color: black;   
+
+
+
+  }
+
+
+  #submit {
+
+      background-color: #4CAF50; /* Green */
+      border:none;
+      color: black;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-family: 'Oswald', sans-serif;
+  }
+    
+ 
+    
+
+  #submit:hover {
+      background-color: white; /* Green */
+      border-radius: 5px;
+      color: black;
+      padding: 7px 22px;
+      text-align: center;
+      display: inline-block;
+      
+      font-family: 'Oswald', sans-serif;
+  }
+  
+}

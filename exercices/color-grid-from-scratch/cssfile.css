@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+
+
+
+div {
+    border-width: 10px;
+    border-spacing: 30px;
+    border-style: solid;
+    display:inline-block;
+    border-color: white;
+}
+
+
+.box1 {
+    width: 95%;
+    height: 80px;
+    background-color: pink;
+}
+
+.box2 {
+    width: 30%;
+    height: 80px;
+    background-color: hotpink;
+}
+
+.box3 { 
+    width: 50%;
+    height: 40px;
+    background-color: deepskyblue;
+}
+    
+    .box4 {
+       
+    width: 75%;
+    height: 40px;
+    background-color: green;
+}
+
+.box5{
+    
+    width: 25%;
+    height: 40px;
+    background-color: orange;
+}
+    
+

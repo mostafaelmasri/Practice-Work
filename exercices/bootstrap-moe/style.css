@@ -1,0 +1,54 @@
+* {
+    padding: 3px;
+}
+
+#red {
+    background-color: red;
+    height:170px;
+}
+
+#green {
+    background-color: green;
+    height: 170px;
+}
+
+
+#blue {
+    background-color:  blue;
+    height: 170px;
+}
+
+
+#pink {
+    background-color:  pink;
+    height: 170px;
+    
+}
+
+
+#black {
+    background-color:  black;
+    height: 170px;
+}
+
+#yellow {
+background-color: yellow;
+    height: 170px;
+}
+
+
+
+#brown {
+    background-color: brown;
+    height: 170px;
+    
+}
+
+
+
+#white {
+    background-color: aliceblue;
+    height: 170px;
+
+    
+}

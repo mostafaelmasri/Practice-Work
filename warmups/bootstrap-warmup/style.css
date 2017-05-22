@@ -1,0 +1,56 @@
+body {
+    background-color: #16ba9c;
+    
+}
+
+
+
+
+.navbar-default {
+    background-color:black;
+    
+    
+}
+
+.navbar-default .navbar-nav>li>a  {
+    color:white;
+}
+
+
+.navbar-default .navbar-brand {
+    color: white;
+    
+}
+    
+    .navbar-default {
+    background-color:#102a54;
+
+}
+
+
+.firstphoto {
+    text-align: center;
+    margin-top: 28px; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+.glyphicon , .glyphicons {
+    color: white;
+    font-size: 110px;
+    text-align: center;
+}
+    

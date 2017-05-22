@@ -1,0 +1,50 @@
+body {
+    background-image: url(http://coolwallpaper.website/wp-content/uploads/2016/11/Cool-Mortal-Kombat-Symbol-Wallpaper-Download-free-wallpapers-and-desktop-backgrounds-in-a-variety-of-screen-resolutions-quality-sofas.jpg);
+    background-repeat: no-repeat;
+}
+
+audio {visibility: hidden;}
+h1{ color: azure;
+    text-align: center;}
+
+
+.partone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parttwo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.big {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+font-size: 30px;
+text-align: center;
+-webkit-column-rule: #b73812;
+-moz-column-rule: #b73812;
+-o-column-rule: #b73812;
+column-rule: #b73812; 
+color: azure;
+}
+
+button {
+    background-color: #b73812;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:#990303;
+    color: white;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: burlywood;
+}
+
+
+p {
+    font-size: 31px;
+}
+
+
+
+.num1{
+    background-color: red;
+    color: black;
+    border: 2px solid #4CAF50;
+    font-size: 41px;
+
+}
+
+.num2 {
+    background-color: blue;
+    color: black;
+    border: 2px solid #4CAF50;
+    font-size: 41px;
+    }
+
+
+.firststuff,.secondstuff {
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;
+
+}

@@ -1,0 +1,52 @@
+body {
+    background-image: url('../img/uk.jpg');
+    color:  whitesmoke;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100vh;
+}
+ul {
+    text-align: center;
+    padding-top: 17px;
+    font-size:24px
+    
+}
+ul li {
+    display:inline;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 39px;
+    font-style: oblique;
+    text-align: center;
+    padding-top: 119px;
+    color:black;
+}
+
+
+nav.mobile-view {
+    display:none;
+
+}
+
+@media (max-width:500px) {
+    nav.desktop-view {
+        display: none;
+    }
+    nav.mobile-view {
+        display: block;
+    }
+    
+}
+
+#fb {
+    height: 30px;
+    float: right;
+}
+
+#hamburger {
+    float: left;
+    font-size:26px;
+}

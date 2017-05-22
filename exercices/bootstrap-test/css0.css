@@ -1,0 +1,25 @@
+:root {
+    --main-color: red;
+    --main-font: Helvetica;
+    --font-size:100px;
+}
+
+
+h1 {
+    color: var(--main-color);
+    font-size: var(--font-size);
+}
+
+p, a, span {
+   color: var(--main-color); 
+}
+    
+
+
+
+
+
+.lets-center{
+    text-align: center;
+}
+

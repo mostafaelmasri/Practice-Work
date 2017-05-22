@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html lang="en" ng-app="firstApp">
+ <head>
+     <meta charset="UTF-8">
+     <title>Document</title>
+ </head>
+ <body ng-controller="mainCtrl">
+<!--
+ <input type="text" ng-model="name">
+   <span>{{string}}</span> <span>{{name}}</span>
+-->
+<!--   <h2>{{ myApp }}</h2>-->
+    <table>
+    <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>jerb</th>
+    </tr>
+     <tr ng-repeat="personnage in people">
+     <td>{{personnage.name}}</td>
+      <td>{{personnage.age}}</td>
+      <td>{{personnage.job}}</td>
+     </tr>
+    </table>
+    
+    
+    
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>    
+     <script src="script.js"></script>
+                  
+ </body>
+ </html>

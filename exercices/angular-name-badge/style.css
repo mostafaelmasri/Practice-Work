@@ -1,0 +1,13 @@
+.btn {
+    margin-top: 15px;
+}
+
+table , th , td {
+    border : 1px solid;    
+    text-align: center;
+    padding: 4px;
+    margin: auto;
+    margin-top: 11px;
+    border-style: solid;
+    border-color: #ff0000;
+}

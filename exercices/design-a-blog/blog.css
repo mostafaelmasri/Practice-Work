@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+ul {
+      background-color: #5e102a;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+
+}
+
+
+
+
+
+
+li {
+  font-size: 24px;
+  display: inline;    
+  padding:48px;
+  padding-right: 100px;
+  color: white;
+  border-right: 2px solid white;
+  }
+
+
+
+
+.firstp  {
+     border : solid black;
+     padding:11px;    
+     text-align: center;
+     width:30%;
+     margin: auto;   
+}
+
+.secondp  {
+     border : solid black;
+     padding:11px;    
+     text-align: center;
+     width:30%;
+     margin: auto;   
+}
+
+.thirdp  {
+     border : solid black;
+     padding:11px;    
+     text-align: center;
+     width:30%;
+     margin: auto;   
+}
+
+.firstp:hover { background-color: cyan; width: 290px; height:130px}
+
+.secondp:hover {  background-color: red; width: 290px; height:130px }
+.thirdp:hover { background-color:blueviolet; width: 290Spx; height:130px}
+
+img.o , .p , .a {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.o:hover {
+    
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+   }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.p:hover {
+  -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+   }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }  
+
+.a:hover {
+-webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+   }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }    
+
+
+
+h1, h2, h3 , h4 , h5, h6 {
+    font-size: 19px;
+    text-align: center;
+}
+
+h1:hover {
+  font-family: 'Oswald', sans-serif;
+  color: #404040;
+  transition: all .5s ease;
+  font-size: 30px;
+}
+
+h2:hover {
+    font-family: 'Oswald', sans-serif;
+  color: #404040;
+  transition: all .5s ease;
+  font-size: 30px;
+}
+
+
+h3:hover {
+  font-family: 'Oswald', sans-serif;
+  color: #404040;
+  transition: all .5s ease;
+  font-size: 30px;
+}
+
+h4:hover {
+  font-family: 'Oswald', sans-serif;
+  color: #404040;
+  transition: all .5s ease;
+  font-size: 30px;
+}
+
+h5:hover {
+  font-family: 'Oswald', sans-serif;
+  color: #404040;
+  transition: all .5s ease;
+  font-size: 30px;
+}
+
+h6:hover {
+  font-family: 'Oswald', sans-serif;
+  color: #404040;
+  transition: all .5s ease;
+  font-size: 30px;
+}

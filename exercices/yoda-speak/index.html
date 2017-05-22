@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Yoda speaks</title>
+</head>
+<body ng-controller="ctrl">
+    <h1>Learn how to speak like yoda someday, you will. Herh herh herh</h1>
+    <input type="text" placeholder="input text in here" ng-model="name">
+    <button ng-click="go()">Translate</button>
+    
+    <p>{{data}}</p>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" >
+<head>
+    <meta charset="UTF-8">
+    <title>aNgular setup ng-repeat</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body ng-controller="myCtrl">
+  <label>Search: <input ng-model="searchText"></label>
+
+   <table id="searchTextResults">
+       <th>handle</th>
+       <th> rank </th>
+       <th> clan </th>
+       
+       <tr ng-repeat="characters in player.kills | filter : searchText">
+     <td>{{characters.handle}}</td>
+     <td> {{characters.rank}} </td>
+      <td>
+          <ul ng-repeat= " characters in characters.clan">
+              <li>{{characters}}</li>
+          </ul>
+      </td>
+       </tr>
+   </table>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

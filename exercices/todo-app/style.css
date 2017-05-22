@@ -1,0 +1,22 @@
+body {
+    background-image: url(https://i.stack.imgur.com/Nj4D3.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+
+.inpu1 {
+/*    margin-left: 10px;*/
+    margin-bottom: 33px;
+    margin-left: 25px;
+}
+
+.span1 {
+    display: inline-block;
+    width: 101px;
+}
+
+h3 {
+        padding-left: 10px;
+}

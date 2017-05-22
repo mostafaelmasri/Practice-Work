@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Mighty clicker angular</title>
+</head>
+
+<body ng-controller="mainCtrl">
+    <div class="firststuff">
+
+        <p>Score:{{redScore}}</p>
+        <button ng-click="redBtn()" class="num1">Click</button>
+    </div>
+    <div class="secondstuff">
+        <p>Score:{{blueScore}}</p>
+        <button ng-click="blueBtn()" class="num2">Click</button>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="services.js"></script>
+</body>
+
+</html>

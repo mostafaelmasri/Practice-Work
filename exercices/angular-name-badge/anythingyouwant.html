@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body ng-controller="mainCtrl">
+
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="form-group col-xs-6">
+                    <input class="form-control" placeholder="First Name" type="text" class="text" ng-model="fname">
+                </div>
+
+                <div class="form-group col-xs-6">
+                    <input class="form-control" placeholder="Last Name" type="text" class="text" ng-model="lname">
+                </div>
+
+
+
+<!--<h1>{{stuff}}</h1>-->
+
+                <div class="form-group col-xs-6">
+                    <input class="form-control" placeholder="Email" type="text" class="text" ng-model="email">
+                </div>
+
+                <div class="form-group col-xs-6">
+                    <input class="form-control" placeholder="Place of BIrth" type="text" class="text" ng-model="birthplace">
+                </div>
+
+
+
+
+
+
+                <div class="form-group col-xs-6">
+                    <input placeholder="Phone" type="text" class="form-control" ng-model="phone"> 
+                </div>
+
+                <div class="form-group col-xs-6">
+                    <input placeholder="Favorite food" class='form-control' type="text" ng-model="favfood">
+                </div>
+
+
+            </div>
+
+        </form>
+
+
+        <textarea placeholder="tell us about yourself" class="form-control" rows="5" ng-model="bio"> </textarea>
+
+
+<div class="col-md-11.5 text-center"> 
+    <button ng-click="createBadge()" class="btn btn-default btn-primary">Submit!</button> 
+</div>
+    </div>
+
+
+  
+       <table>
+          <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Email</th>
+    <th>place of birth</th>
+    <th>phone</th>
+    <th>Favorite Food</th>
+    <th>Biography</th>
+         </tr>
+          
+           <tr ng-repeat="x in arr">
+               <td>{{x.firstName}}</td>
+               <td>{{x.lastName}}</td>
+               <td>{{x.eMail}}</td>
+               <td>{{x.PlaceOfBirth}}</td>
+               <td>{{x.phone}}</td>
+               <td>{{x.FavoriteFood}}</td>
+               <td>{{x.Biography}}</td>
+                     </tr>
+                      
+       </table>
+       
+       
+       
+       
+    
+   
+   
+   
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="anythingyouwant.js"></script>
+</body>
+
+</html>

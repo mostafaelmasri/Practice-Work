@@ -1,0 +1,15 @@
+.img1 {  
+    width: 700px;
+    padding-left: 440px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+
+<head>
+    <audio controls autoplay>
+  <source src="Star%20Wars%20Theme%20Song%20By%20John%20Williams%20(1).mp3" type="audio/mpeg">
+</audio>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Star wars Opening credits</title>
+</head>
+
+<body ng-controller="ctrl">
+    <div id="titles"><div id="titlecontent">
+
+        <h1>{{myService.openingCrawl}}</h1>
+        </div></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

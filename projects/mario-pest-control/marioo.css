@@ -1,0 +1,310 @@
+body {
+    background-color:#314cd6;
+    background-image: image(http://wallpaper-gallery.net/images/hd-blue-background-wallpapers/hd-blue-background-wallpapers-9.jpg);
+}
+
+
+h1 {
+    color:#42f4a4;
+    text-align: center;
+    font-size: 40px;
+    background: #06893b;
+    font-family: 'Press Start 2P', cursive;
+
+    
+}
+
+.goomba {
+    font-size: 388px;
+    width:219px;
+    padding-left: 179px;
+
+}
+
+
+.bro {
+    width:382px;
+    padding-left: 133px;
+    
+}
+
+.cheep {
+        
+    width:305px;
+    padding-left: 200px;
+    padding-right: 138px;
+    
+}
+
+div.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.div1 , .div2 , .div3{
+    text-align: center;
+}
+
+
+.container2 {
+        display: flex;
+        justify-content: space-around;
+
+}
+
+
+
+.container3 {
+    
+     display: flex;
+     justify-content: space-around;
+    font-size: 30px;
+
+}
+
+
+    
+
+#container4 {
+    
+     display: flex;
+     justify-content: space-around;
+
+}
+
+
+.grandtotal {
+    text-align: center;
+    font-size: 150px;
+}
+
+
+
+a {
+color: #e81070;
+}
+
+
+
+.stbuttons {
+         display: flex;
+         justify-content: space-around;
+         padding-top:25px;
+}
+
+
+
+
+.button2, .button3 , .button4 {
+
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+
+
+footer {
+    font-size: 25px;
+    background: #232128;
+    text-align: center;
+    color:white;
+}
+
+
+
+.headers {
+        
+        display: flex;
+        justify-content: space-around;
+        color:#42f4a4;
+        font-size: 25px;
+    
+}
+
+
+
+.mariologo {
+        width: 110px;
+        height: 90px;
+        display:  flex;    
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: blue;
+    }
+
+h1 {
+    color:#e81070;
+    text-align: center;
+    font-size: 25px;
+    font-style: oblique;
+    text-decoration: underline;
+    background: #06893b;
+    
+}
+
+.goomba {
+    font-size: 100px;
+    width:80px;
+    padding-left: 80px;
+
+}
+
+
+.bro {
+    width:110px;
+    padding-left: 23px;
+    
+}
+
+.cheep {
+        
+    width:85px;
+    padding-left: 13px;
+    padding-right: 77px;
+    
+}
+
+div.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+.div1 , .div2 , .div3{
+    text-align: center;
+}
+
+
+.container2 {
+        display: flex;
+        justify-content: space-around;
+
+}
+
+
+
+.container3 {
+    
+     display: flex;
+     justify-content: space-around;
+    font-size: 15px;
+
+}
+
+
+    
+
+#container4 {
+    
+     display: flex;
+     justify-content: space-around;
+
+}
+
+
+.grandtotal {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+a {
+color: #e81070;
+}
+
+
+
+.stbuttons {
+         display: flex;
+         justify-content: space-around;
+         padding-top:15px;
+         font-size: 30px;
+}
+
+
+
+
+.button2, .button3 , .button4 {
+
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 11px 23px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    
+}
+
+
+
+footer {
+    font-size: 18px;
+    background: #232128;
+    text-align: center;
+    color:white;
+}
+
+
+
+.headers {
+        
+        display: flex;
+        justify-content: space-around;
+        color:white;
+        font-size: 17px;
+    
+}
+
+
+
+.mariologo {
+        width: 60px;
+        height: 55px;
+        display:  flex;    
+}
+
+
+
+
+
+
+}

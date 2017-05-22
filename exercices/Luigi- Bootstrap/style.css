@@ -1,0 +1,68 @@
+.box{
+	width:1528px;
+	height:105px;
+}
+ 
+.yellow{
+	background:yellow;
+}
+
+h1 {
+    font-size: 44px;
+    font-style: oblique;
+    color: red;
+        padding-left: 80px;
+    padding-top: 26px;
+    
+}
+
+
+.red {
+    background: red;
+    width:1528px;
+	height:323px;
+    
+}
+
+.firstpic {
+        padding-left: 618px;
+        padding-top: 17px;
+    
+}
+
+.white {
+     background: white;
+    width:1370px;
+	height:160px;
+    padding-left: 65px;
+        padding-bottom: 66px;
+
+    
+}
+
+.htwo {
+    text-align: center;
+    color: red;
+    font-size: 33px;
+   
+}
+
+
+
+
+.yellow2 {
+    background: #d7e840;
+    width:1528px;
+	height:72px;
+}
+
+
+
+.scndpic {
+    
+     width: 65px;
+    height: 70px;
+    padding-left: 1450px;
+    
+    
+}
